@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 
 #include "GameLayer.h"
+#include "Background.h"
 
 USING_NS_CC;
 
