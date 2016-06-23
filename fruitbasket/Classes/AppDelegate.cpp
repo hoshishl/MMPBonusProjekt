@@ -105,3 +105,16 @@ void AppDelegate::applicationWillEnterForeground() {
 	// if you use SimpleAudioEngine, it must resume here
 	// SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
 }
+/*
+//switchingscenes, eg. after starting leve, between levels and toplist when game finished
+void AppDelegate::switchScene() {
+	if (sceneSuccesful) {
+		sceneNumber = sceneNumber + 1;
+		auto newScene = GameLayer::scene();
+		GameLayer::setSceneNumber(sceneNumber);
+		Director::getInstance()->popScene(newScene);
+	}
+	// if you use SimpleAudioEngine, it must be pause
+	// SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
+}
+*/
